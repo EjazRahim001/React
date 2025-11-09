@@ -67,7 +67,7 @@ const TodoList = () => {
                             </button>
                         </div>
                         {/* Render all list items under this heading */}
-                        <ol>
+                        <ol className='todo-list'>
                             {todo.lists.map((list, listIndex) => (
                                 <li key={listIndex} className='todo_inside_list'>
                                     <p>{list}</p> {/* Display individual list item */}

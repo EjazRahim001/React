@@ -111,9 +111,21 @@
     transition: background-color 0.3s ease;
     margin-left: 25px;
 }
-.todo_inside_list {
-    display: flex;
-    gap: 140px;
-    margin: 10px;
+.todo-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin: 0;
 }
+
+.todo_inside_list {
+  /* Keep default list-item behavior */
+  margin-bottom: 10px;
+}
+
+.list-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 
